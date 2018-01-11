@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Random randomNumberGenerator = new Random();
 
-                int number = randomNumberGenerator.nextInt(4) ;
+                int number = randomNumberGenerator.nextInt(5) ;
                 ballDisplay.setImageResource(ballArray[number]);
                 Log.d("8 ball","click");
             }
