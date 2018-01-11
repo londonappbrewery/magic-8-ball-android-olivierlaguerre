@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
                 int number = randomNumberGenerator.nextInt(5) ;
                 ballDisplay.setImageResource(ballArray[number]);
-                Log.d("8 ball","click");
+                //Log.d("8 ball","click");
             }
         });
 
